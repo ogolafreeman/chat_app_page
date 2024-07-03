@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ChatApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include FontAwesome -->
+    <style>
+        /* Reset default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+
+        /* Main container styles */
+        .landing-page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333; /* Dark text color for readability */
+        }
+
+        /* Header styles */
+        .header {
+            background-color: #007bff; /* Blue header */
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .nav-links a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: all 0.3s ease; /* Smooth hover transition */
+            display: flex;
+            align-items: center;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .nav-links .icon {
+            margin-right: 5px;
+        }
+
+        /* Main content styles */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .team-member {
+            margin-bottom: 20px;
+        }
+        .team-member a {
+            margin-right: 10px;
+            color: #007bff; /* Blue links */
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            transition: all 0.3s ease; /* Smooth hover transition */
+        }
+        .team-member a:hover {
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #007bff; /* Blue footer */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: all 0.3s ease; /* Smooth hover transition */
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <header class="header">
+            <div class="logo">Web ChatApp</div>
+            <nav class="nav-links">
+                <a href="index.html"><span class="icon"><i class="fas fa-home"></i></span> Home</a>
+                <a href="features.html"><span class="icon"><i class="fas fa-star"></i></span> Features</a>
+                <a href="about.html"><span class="icon"><i class="fas fa-info-circle"></i></span> About</a>
+                <a href="#contact"><span class="icon"><i class="fas fa-envelope"></i></span> Contact</a>
+            </nav>
+        </header>
+        <main class="main-content">
+            <h1>About Web ChatApp</h1>
+            <p>Web ChatApp was inspired by the need for a simple, user-friendly chat application that allows people to connect with friends and family instantly. The idea came to us during a time when staying connected is more important than ever. We wanted to create a platform that not only facilitates communication but also enhances the user experience with features like real-time messaging, private chats, group conversations, and more.</p>
+            <p>This project is a part of the Holberton School's Portfolio Project, where we are required to develop and showcase our skills through real-world applications.</p>
+            
+            <h2>Team Members</h2>
+            <div class="team-member">
+                <h3>Jacktone Okwemba</h3>
+                <a href="https://www.linkedin.com/in/jack-okwemba-a4aa79144" target="_blank"><span class="icon"><i class="fab fa-linkedin"></i></span> LinkedIn</a>
+                <a href="https://github.com/ogolafreeman" target="_blank"><span class="icon"><i class="fab fa-github"></i></span> GitHub</a>
+                <a href="https://twitter.com/OkwembaJacktone" target="_blank"><span class="icon"><i class="fab fa-twitter"></i></span> Twitter</a>
+            </div>            
+            <h2>Project Repository</h2>
+            <p><a href="https://github.com/ogolafreeman/Chat-Application" target="_blank"><span class="icon"><i class="fas fa-code"></i></span> GitHub Repository</a></p>
+        </main>
+        <footer class="footer">
+            <a href="#about"><span class="icon"><i class="fas fa-info-circle"></i></span> About</a>
+            <a href="#privacy"><span class="icon"><i class="fas fa-shield-alt"></i></span> Privacy Policy</a>
+            <a href="#terms"><span class="icon"><i class="fas fa-file-contract"></i></span> Terms of Service</a>
+        </footer>
+    </div>
+</body>
+</html>
