@@ -1,2 +1,2 @@
-# chat_app_page
+# Chat Application 
 Project Landing Page
